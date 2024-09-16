@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Helmet', 'no_safety-shoe', 'safety-shoe']
+
+roboflow:
+  workspace: workshoeyolov5
+  project: workshoedetection-hjpeg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workshoeyolov5/workshoedetection-hjpeg/dataset/1
